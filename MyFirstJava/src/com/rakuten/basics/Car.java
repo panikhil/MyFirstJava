@@ -1,0 +1,13 @@
+package com.rakuten.basics;
+
+public class Car extends Vehicle {
+	public void start() {
+		System.out.println("{{{{{ starting car }}}}}");
+		
+	}
+	public void stop() {
+		System.out.println("{{{{{{ stopping car}}}}}");
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.rakuten.basics;
+
+public class StackFullException extends RuntimeException {
+
+	public StackFullException(String message, Throwable cause) {
+		super(message, cause);
+		
+	}
+
+}

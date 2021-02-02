@@ -1,0 +1,22 @@
+package com.rakuten.collection;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class SortDemo {
+	public static String[] strings = {"this","is", "a", "bunch","of","bizaree","words","like"
+			,"xylophone"};
+  public static void main(String[] args) {
+	demoSimpleSortOfStrings();
+}
+
+private static void demoSimpleSortOfStrings() {
+	List<String> wordList = Arrays.asList(strings);
+	System.out.println(strings);
+	System.out.println(wordList);
+	Arrays.sort(strings);
+	System.out.println(Arrays.asList(strings));
+	
+}
+}
+

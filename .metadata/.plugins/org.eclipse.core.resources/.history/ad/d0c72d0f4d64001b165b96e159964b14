@@ -1,0 +1,5 @@
+package com.rakuten.lambda;
+
+public interface TwoStringsPredicate {
+
+}

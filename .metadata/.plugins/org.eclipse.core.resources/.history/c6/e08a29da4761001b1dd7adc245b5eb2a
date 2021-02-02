@@ -1,0 +1,20 @@
+
+public class PrimitiveVsReference {
+ public static void main(String[] args) {
+	int i = 9;
+	int []a = new int[10];
+	somefun1(i);
+	System.out.println(i);
+	 a[0] = 90;
+	somefun2(a[0]);
+	System.out.println(a[0]);
+}
+
+public static void somefun1(int a) {
+	a++;
+}
+public static void somefun2(int []a) {
+   a[0]++;
+	
+}
+}
